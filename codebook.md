@@ -91,3 +91,22 @@
 
 ###Y_train.txt, Y_train.txt
 	Codes for the activity being performed for each measurement of *_train.txt. Corresponding activities for the codes can be found in the activity_labels.txt file.
+	
+
+##R script
+
+###run_analysis.R
+	R script that takes the data files shown above and reorganizes them into a new, succint, tidy data set.
+	
+	Specifically, this script does the following:
+	
+	*merges training and test data sets
+	*matches a subject and activity to each recorded data point
+	*extracts only data for mean and standard deviation for measurements
+	*labels the activity & measured variables appropriately
+	*outputs a tidy data set (tidydata_course_project.txt)
+
+##Output Files
+
+###tidydata_course_project.txt	
+	The tidy data set output by the run_analysis.R script.
