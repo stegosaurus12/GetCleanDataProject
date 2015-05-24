@@ -2,7 +2,7 @@
 
 ##Files
 
-#activity_labels.txt
+###activity_labels.txt
 	Codes for corresponding activity type
 	
 	*1 WALKING
@@ -12,7 +12,7 @@
 	*5 STANDING
 	*6 LAYING
 
-#features.txt
+###features.txt
 	Codes for corresponding feature being measured
 	
 	*1 tBodyAcc-mean()-X
@@ -82,11 +82,12 @@
 	tBodyGyroMean
 	tBodyGyroJerkMean
 	
-#subject_train.txt, subject_test.txt
+###subject_train.txt, subject_test.txt
 	Subject number for the corresponding measurements in the training/test data sets. Subject numbers range from 1-30.
 
 
-#X_train.txt, X_test.txt
+###X_train.txt, X_test.txt
 	Measurements for the training/test data sets. The feature being measured can be found in the features.txt file, the subject being measured can be found in the subject_*.txt file, and the activity being measured can be found in the *_train.txt and activity_labels.txt files.
 
-#Y_train.txt, Y_train.txt
+###Y_train.txt, Y_train.txt
+	Codes for the activity being performed for each measurement of *_train.txt. Corresponding activities for the codes can be found in the activity_labels.txt file.
